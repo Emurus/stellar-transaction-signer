@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="sample.Controller" maxHeight="367.0" maxWidth="542.0" minHeight="367.0" minWidth="542.0" prefHeight="367.0" prefWidth="542.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="xdrBox" layoutX="14.0" layoutY="43.0" prefHeight="210.0" prefWidth="506.0" promptText="Example: AAAAAGXNhB2hIkbP//jgzn4os/AAAAZAB+BaLPAAA5Q/xL..." />
+      <TextField fx:id="signBox" layoutX="14.0" layoutY="283.0" prefHeight="25.0" prefWidth="506.0" promptText="Secret key (starting with S) or hash preimage (in hex)" />
+      <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input a base-64 encoded XDR blob" />
+      <Text layoutX="14.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Signer" wrappingWidth="150.74609375" />
+      <Button fx:id="signButton" layoutX="416.0" layoutY="321.0" mnemonicParsing="false" text="Sign Transaction" />
+      <CheckBox fx:id="checkTest" layoutX="14.0" layoutY="325.0" mnemonicParsing="false" text="Use Test Network" />
+   </children>
+</Pane>
